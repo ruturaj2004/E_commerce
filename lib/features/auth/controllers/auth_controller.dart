@@ -9,6 +9,10 @@ class AuthController extends GetxController {
   final isLoading = false.obs;
   final userAvatar = ''.obs;
   String userName = '';
+  var email = ''.obs;
+  var password = ''.obs;
+  var name = ''.obs;
+  var phoneNumber = ''.obs;
 
   void validateEmail() {
     if (emailController.text.isNotEmpty) {

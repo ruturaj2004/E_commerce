@@ -1,6 +1,7 @@
+import 'package:e_commerce/features/auth/screens/home_screen.dart';
 import 'package:go_router/go_router.dart';
 
-import '../../features/home/screens/home_screen.dart';
+// import '../../features/home/screens/home_screen.dart';
 import '../../features/splash/view/splash_screen.dart';
 
 class AppRouter {
@@ -18,7 +19,7 @@ class AppRouter {
       ),
       GoRoute(
         path: home,
-        builder: (context, state) => const HomeScreen(),
+        builder: (context, state) =>  HomeScreen2(),
       ),
     ],
   );
